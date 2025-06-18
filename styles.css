@@ -3,7 +3,7 @@ body {
 }
 
 img {
-    width: 144px;
+    width: 10rem;
     height: 100%;
     border-radius: 24px;
 }
@@ -24,6 +24,22 @@ img {
 .about-section {
     flex: 3; /* 3 parts of the total width */
     background-color: whitesmoke;
-    padding: 5px 60px;
+    padding: 0 60px;
     border-radius: 24px;
+}
+
+.name {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.bio-text {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 24px; 
+    color: #4a4a4a;
+    max-width: 520px;
 }
