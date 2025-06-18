@@ -1,0 +1,29 @@
+body {
+    background-color: #737373;
+}
+
+img {
+    width: 144px;
+    height: 100%;
+    border-radius: 24px;
+}
+
+.container {
+    padding: 8px 16px;
+}
+
+.about-container {
+    display: flex;
+    padding: 24px;
+}
+
+.profile-pic {
+    flex: 1; /* 1 part of the total width */
+}
+
+.about-section {
+    flex: 3; /* 3 parts of the total width */
+    background-color: whitesmoke;
+    padding: 5px 60px;
+    border-radius: 24px;
+}
