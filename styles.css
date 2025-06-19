@@ -56,6 +56,8 @@ img {
 }
 
 .proficiency-levels{
+     font-family: "Inter", sans-serif;
+    font-size: 14px;
     word-spacing: 12px;
     text-align: left;
 }
@@ -75,18 +77,20 @@ img {
 }
 
 .proficiency-item {
-    font-family: "Inter", sans-serif;
-    font-size: 14px;
     display: flex;  /*puts the progress bar and proficiency name in a flexbox*/
     align-items: center;
 }
 
 .proficiency-name {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
     width: 100px; /*This helps the progress bars (class .fill) start at the same point by fixing the width of the proficiency name*/
 }
 
 .fill {
   display: inline-block;
+  font-size: 14px;
   height: 6px;
   background-color: #396B5E;
   border-radius: 3px;
@@ -100,3 +104,11 @@ img {
     border-radius: 12px;
     box-shadow: 0 0 2px #DADADA;
 }
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
