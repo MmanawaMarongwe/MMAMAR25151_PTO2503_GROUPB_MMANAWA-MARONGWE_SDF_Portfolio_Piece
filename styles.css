@@ -130,36 +130,66 @@ img {
     background-color: white;
     border-radius: 24px;
     padding: 0 24px 24px 24px;
-}
+}   
 
 .project-grid {
       display: flex;
       justify-content: space-between;
       gap: 20px;
+      padding: 10px;
       
 }
 .project-card{
     background-color: #ECF4F1;
     width: 240px;
     height: 360px;
-    padding: 10px;
+    padding: 0px 10px 10px 10px ;
     border-radius: 12px;
     box-shadow: 0 0 2px #DADADA;
-}
-.project-grid .project-card:nth-child(1) {
-    background-color: #2E6E5B;
-    color: #FFF;
-}
-
-.project-name{
-    font-size: 16px;
-    font-weight: 550;
-    margin-bottom: 12px;
 }
 
 .brief, .technologies, .responsibilities {
     font-size: 14px;
     line-height: 18px;
+    color: #4A4A4A;
+}
+
+.project-grid .project-card:nth-child(1) {
+    background-color: #2E6E5B;
+    color: #FFF;
+}
+
+.project-grid .project-card:nth-child(1) .brief,
+.project-grid .project-card:nth-child(1) .technologies,
+.project-grid .project-card:nth-child(1) .responsibilities {
+  color: #FFF;
+}
+
+.project-name{
+    font-size: 14px;
+    font-weight: 550;
+    margin-bottom: 12px;
+}
+
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  margin: 0;
+}
+
+.heart-icon {
+  font-size: 30px;
+  color: #CCCCCC;
+  padding: 8px;
+}
+
+.heart-icon:active {
+    color: #D9534F;
+    scale: 1.05;
 }
 
 
