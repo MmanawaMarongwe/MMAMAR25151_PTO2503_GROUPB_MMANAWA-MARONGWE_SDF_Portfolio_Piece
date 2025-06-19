@@ -40,10 +40,9 @@ img {
 .skills-proficiency-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-    margin-bottom: 2rem;
+    gap: 20px;
     border-radius: 12px;
-    padding: 24px;
+    padding: 0 24px 24px 24px;
 }
 
 
@@ -84,7 +83,6 @@ img {
 .proficiency-name {
     font-family: "Inter", sans-serif;
     font-size: 14px;
-    font-family: "Inter", sans-serif;
     width: 100px; /*This helps the progress bars (class .fill) start at the same point by fixing the width of the proficiency name*/
 }
 
@@ -99,7 +97,7 @@ img {
 
 .skills-column {
     flex: 1.7;
-    background-color: whitesmoke;
+    background-color: #FFFF;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 0 2px #DADADA;
@@ -108,7 +106,14 @@ img {
 .skills-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     gap: 16px;
 }
-
+ 
+.skill-item  {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    background-color: #ECF4F1;
+    padding: 8px 14px;
+    border-radius: 35px;
+    letter-spacing: 2px;
+}
