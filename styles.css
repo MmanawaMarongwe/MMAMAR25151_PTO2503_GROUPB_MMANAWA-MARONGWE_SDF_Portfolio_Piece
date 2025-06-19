@@ -16,17 +16,23 @@ img {
     height: 100%;
 }
 
+.profile-section{
+    display: flex;
+    padding: 24px;
+}
+
 .profile-pic {
     flex: 1; /* 1 part of the total width */
     height: 100%;
 }
 
-.profile-section{
-    display: flex;
-    padding: 24px;
-    border-radius: 12px;
+.bio-text {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 24px; 
+    color: #4a4a4a;
+    max-width: 520px;
 }
-
 
 .about-section {
     flex: 3; /* 3 parts of the total width */
@@ -45,17 +51,8 @@ img {
     padding: 0 24px 24px 24px;
 }
 
-
-.bio-text {
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    line-height: 24px; 
-    color: #4a4a4a;
-    max-width: 520px;
-}
-
 .proficiency-levels{
-     font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 14px;
     word-spacing: 12px;
     text-align: left;
@@ -116,4 +113,46 @@ img {
     padding: 8px 14px;
     border-radius: 35px;
     letter-spacing: 2px;
+}
+
+
+@media (max-width: 640px) {
+
+    img {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 12px;
+        object-fit: cover;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+   .profile-section {
+        flex-direction: row;
+        align-items: center;
+        padding: 12px;
+        gap: 5px;
+        margin-bottom: 5px;
+    }
+
+    .about-section {
+        flex: 2;
+        padding: 5px;
+        margin-top: 18px;
+        border-radius: 12px;
+    }
+
+    .bio-text {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    
+    .hide-on-mobile {
+        display: none;
+    }
+
+
+  
 }
