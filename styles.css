@@ -9,7 +9,7 @@ body {
 h2 {
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
     text-align: left;
     margin-bottom: 1rem;
 }
@@ -46,7 +46,7 @@ footer {
 }
 
 .profile-pic img {
-    width: 10rem;
+    width: 12rem;
     border-radius: 24px;
     height: 100%;
 }
@@ -56,7 +56,6 @@ footer {
     font-size: 16px;
     line-height: 24px; 
     color: #4a4a4a;
-    max-width: 520px;
 }
 
 .about-section {
@@ -215,6 +214,10 @@ footer {
     margin-bottom: 24px;
 }
 
+.education-header {
+    text-align: center;
+}
+
 .education-section{
     flex: 3;
     padding: 24px;
@@ -251,13 +254,13 @@ footer {
 }
 
 
-.education-section .education-card:nth-child(1) {
+.education-section .education-card:nth-child(2) {
     background-color: #2E6E5B;
     color: #FFF;
 }
 
-.education-section .education-card:nth-child(1) p,
-.education-section .education-card:nth-child(1) li {
+.education-section .education-card:nth-child(2) p,
+.education-section .education-card:nth-child(2) li {
     color: #FFF;
 }
 
@@ -286,6 +289,10 @@ footer {
     padding: 24px;
     background-color: #FFF;
     border-radius: 24px;
+}
+
+.tools-header{
+    text-align: center;
 }
 
 .tools-grid {
@@ -339,18 +346,22 @@ footer {
     margin-top: 15px;
 }
 
-.experience-section .experience-card:nth-child(1) {
+.experience-section .experience-card:nth-child(2) {
     background-color: #2E6E5B;
     color: #FFF;
 }
 
-.experience-section .experience-card:nth-child(1) p,
-.experience-section .experience-card:nth-child(1) li {
+.experience-section .experience-card:nth-child(2) p,
+.experience-section .experience-card:nth-child(2) li {
     color: #FFF;
 }
 
 .experience-section .recent-tag {
     margin-left: 50px;
+}
+
+.experience-header{
+    text-align: center;
 }
 
 .contact-card {
