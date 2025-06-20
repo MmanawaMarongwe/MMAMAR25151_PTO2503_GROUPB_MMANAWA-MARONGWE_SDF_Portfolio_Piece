@@ -229,11 +229,15 @@ footer {
     border-radius: 12px;
     box-shadow: 0 0 2px #DADADA;
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 35px;
     border-radius: 24px;
     background-color: #ECF4F1;
+    position: relative;
 }
 
+.program-info, .skills-gained {
+    margin-top: 15px;
+}
 
 
 .institution, .organization {
@@ -247,6 +251,7 @@ footer {
     color: #4A4A4A;
 }
 
+
 .education-section .education-card:nth-child(1) {
     background-color: #2E6E5B;
     color: #FFF;
@@ -257,10 +262,22 @@ footer {
     color: #FFF;
 }
 
- .recent-tag {
+.recent-tag-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.education-card .recent-tag-wrapper {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.recent-tag {
     background-color: #D9534F;
     font-size: 12px;
-    margin-left: 20px;
     padding: 10px;
     border-radius: 30px;
 }
@@ -293,7 +310,7 @@ footer {
 }
 
 .experience-info {
-  width: 200px; /* Or whatever fits your layout */
+  width: 200px;
   flex-shrink: 0;
 }
 
@@ -335,22 +352,11 @@ footer {
 .divider {
   width: 2px;
   height: 24pxpx;
-  background-color: #CCCCCC; /* soft white */
+  background-color: #CCCCCC;
 }
 
 
 @media (max-width: 640px) {
-
-    .container {
-        padding: 12px;
-    }
-
-    .profile-pic img {
-        width: 6rem;
-        height: 6rem;
-        border-radius: 12px;
-        object-fit: cover;
-    }
 
     p {
         font-size: 10px;
@@ -358,6 +364,22 @@ footer {
 
     h2 {
         font-size: 14px;
+    }
+
+    li {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .profile-pic img {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 12px;
+        object-fit: cover;
     }
 
    .profile-section {
@@ -413,4 +435,19 @@ footer {
     .project-name, .project-title {
         font-size: 14px;
     }
+    .education-and-tools {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .education-card{
+        flex-direction: row;
+        gap: 0;
+        align-items: baseline;
+    }
+
+    .program-info p {
+        font-size: 10px;
+    }
+    
 }
