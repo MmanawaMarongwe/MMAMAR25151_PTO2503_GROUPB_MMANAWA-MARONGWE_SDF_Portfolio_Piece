@@ -21,6 +21,8 @@ h3, p {
 
 .profile-section{
     display: flex;
+    margin-bottom: 24px;
+    gap: 0;
 }
 
 .profile-pic {
@@ -29,7 +31,7 @@ h3, p {
 }
 
 .profile-pic img {
-    width: 9rem;
+    width: 10rem;
     border-radius: 24px;
     height: 100%;
 }
@@ -43,12 +45,11 @@ h3, p {
 }
 
 .about-section {
-    flex: 3; /* 3 parts of the total width */
+    flex: 4; /* 3 parts of the total width */
     background-color: whitesmoke;
     padding: 4px 60px;
     border-radius: 24px;
     box-shadow: 0 0 3px #DADADA;
-    margin-bottom: 24px;
 }
 
 .skills-proficiency-container {
@@ -56,6 +57,7 @@ h3, p {
     flex-wrap: wrap;
     gap: 20px;
     border-radius: 12px;
+    margin-bottom: 24px;
 }
 
 .proficiency-levels{
@@ -131,7 +133,7 @@ h3, p {
     background-color: white;
     border-radius: 24px;
     padding: 0 24px 24px 24px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }   
 
 .project-grid {
@@ -161,9 +163,7 @@ h3, p {
     color: #FFF;
 }
 
-.project-grid .project-card:nth-child(1) .brief,
-.project-grid .project-card:nth-child(1) .technologies,
-.project-grid .project-card:nth-child(1) .responsibilities {
+.project-grid .project-card:nth-child(1) p {
   color: #FFF;
 }
 
@@ -207,7 +207,6 @@ h3, p {
 
 .education-card {
     display: flex;
-    gap: 50px;
     border-radius: 12px;
     box-shadow: 0 0 2px #DADADA;
     margin-bottom: 10px;
@@ -222,7 +221,7 @@ h3, p {
     line-height: 18px;
     color: #4A4A4A;
     list-style-position: outside;
-    padding-left: 8px;
+    padding-left: 8px;  
 }
 
 .institution {
@@ -233,6 +232,24 @@ h3, p {
 .completion-date, .program-name {
     font-size: 14px;
     color: #4A4A4A;
+}
+
+.education-section .education-card:nth-child(1) {
+    background-color: #2E6E5B;
+    color: #FFF;
+}
+
+.education-section .education-card:nth-child(1) p,
+.education-section .education-card:nth-child(1) li {
+    color: #FFF;
+}
+
+.recent-tag {
+    background-color: #D9534F;
+    font-size: 12px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    border-radius: 30px;
 }
 
 .tools-grid {
