@@ -1,5 +1,21 @@
+:root {
+  --font-main: "Inter", sans-serif;
+
+  --color-body-bg: #737373;
+  --color-accent: #D76239;
+  --color-dark-green: #2E6E5B;
+  --color-light-green: #ECF4F1;
+  --color-shadow: #DADADA;
+  --color-white-fallback: #FFFF;
+  --color-white: #FFF;
+  --color-fill: #396B5E;
+  --color-grey: #CCCCCC;
+  --color-dark-grey: #4A4A4A;
+}
+
+
 body {
-    background-color: #737373;
+    background-color: var(--color-body-bg);
 }
 
 .container {
@@ -7,7 +23,7 @@ body {
 }
 
 h2 {
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-main);
     font-weight: bold;
     font-size: 30px;
     text-align: left;
@@ -15,20 +31,20 @@ h2 {
 }
 
 h3, p {
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-main);
 }
 
 li{
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-main);
     font-size: 16px;
     line-height: 20px;
-    color: #4A4A4A;
+    color: var(--color-dark-grey);
     list-style-position: outside;
     padding-left: 8px;  
 }
 
 footer {
-    background-color: #D76239;
+    background-color: var(--color-accent);
     padding: 30px;
     border-radius: 24px;
 
@@ -52,18 +68,18 @@ footer {
 }
 
 .bio-text {
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-main);
     font-size: 16px;
     line-height: 24px; 
-    color: #4a4a4a;
+    color: var(--color-dark-grey);
 }
 
 .about-section {
     flex: 4; /* 3 parts of the total width */
-    background-color: whitesmoke;
+    background-color: var(--color-white);
     padding: 4px 60px;
     border-radius: 24px;
-    box-shadow: 0 0 3px #DADADA;
+    box-shadow: 0 0 3px var(--color-shadow);
 }
 
 .skills-proficiency-container {
@@ -75,7 +91,7 @@ footer {
 }
 
 .proficiency-levels{
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-main);
     font-size: 14px;
     word-spacing: 12px;
     text-align: left;
@@ -83,10 +99,10 @@ footer {
 
 .proficiency-column {
     flex: 1.3;
-    background-color: whitesmoke;
+    background-color: var(--color-white);
     padding: 20px;
     border-radius: 24px;
-    box-shadow: 0 0 2px #DADADA;
+    box-shadow: 0 0 2px var(--color-shadow);
 }
 
 .proficiency-list {
@@ -101,7 +117,7 @@ footer {
 }
 
 .proficiency-name {
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-main);
     font-size: 14px;
     width: 100px; /*This helps the progress bars (class .fill) start at the same point by fixing the width of the proficiency name*/
 }
@@ -110,17 +126,17 @@ footer {
   display: inline-block;
   font-size: 14px;
   height: 6px;
-  background-color: #396B5E;
+  background-color: var(--color-fill);
   border-radius: 3px;
 }
 
 
 .skills-column {
     flex: 1.7;
-    background-color: #FFFF;
+    background-color: var(--color-white);
     padding: 20px;
     border-radius: 24px;
-    box-shadow: 0 0 2px #DADADA;
+    box-shadow: 0 0 2px var(--color-shadow);
 }
 
 .skills-list {
@@ -130,9 +146,9 @@ footer {
 }
  
 .skill-item  {
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-main);
     font-size: 14px;
-    background-color: #ECF4F1;
+    background-color: var(--color-light-green);
     padding: 8px 14px;
     border-radius: 35px;
     letter-spacing: 2px;
@@ -144,7 +160,7 @@ footer {
     padding-top: 16px;
 }
 .project-section {
-    background-color: white;
+    background-color: var(--color-white);
     border-radius: 24px;
     padding: 0 24px 24px 24px;
     margin-bottom: 24px;
@@ -158,27 +174,27 @@ footer {
       
 }
 .project-card{
-    background-color: #ECF4F1;
+    background-color: var(--color-light-green);
     width: 240px;
     height: 360px;
     padding: 0px 10px 10px 10px ;
     border-radius: 12px;
-    box-shadow: 0 0 2px #DADADA;
+    box-shadow: 0 0 2px var(--color-shadow);
 }
 
 .brief, .technologies, .responsibilities {
     font-size: 14px;
     line-height: 18px;
-    color: #4A4A4A;
+    color: var(--color-dark-grey);
 }
 
 .project-grid .project-card:nth-child(1) {
-    background-color: #2E6E5B;
-    color: #FFF;
+    background-color: var(--color-dark-green);
+    color: var(--color-white);
 }
 
 .project-grid .project-card:nth-child(1) p {
-  color: #FFF;
+  color: var(--color-white);
 }
 
 .project-name{
@@ -199,12 +215,12 @@ footer {
 
 .heart-icon {
   font-size: 30px;
-  color: #CCCCCC;
+  color: var(--color-grey);
   padding: 8px;
 }
 
 .heart-icon:active {
-    color: #D9534F;
+    color: var(--color-accent);
     scale: 1.05;
 }
 
@@ -221,7 +237,7 @@ footer {
 .education-section{
     flex: 3;
     padding: 24px;
-    background-color: #FFF;
+    background-color: var(--color-white);
     border-radius: 24px;
     gap: 10px;
 }
@@ -229,11 +245,11 @@ footer {
 .education-card {
     display: flex;
     border-radius: 12px;
-    box-shadow: 0 0 2px #DADADA;
+    box-shadow: 0 0 2px var(--color-shadow);
     margin-bottom: 20px;
     padding: 35px;
     border-radius: 24px;
-    background-color: #ECF4F1;
+    background-color: var(--color-light-green);
     position: relative;
 }
 
@@ -250,18 +266,18 @@ footer {
 
 .completion-date, .program-name {
     font-size: 14px;
-    color: #4A4A4A;
+    color: var(--color-dark-grey);
 }
 
 
 .education-section .education-card:nth-child(2) {
-    background-color: #2E6E5B;
-    color: #FFF;
+    background-color: var(--color-dark-green);
+    color: var(--color-white);
 }
 
 .education-section .education-card:nth-child(2) p,
 .education-section .education-card:nth-child(2) li {
-    color: #FFF;
+    color: var(--color-white);
 }
 
 .recent-tag-wrapper {
@@ -278,7 +294,7 @@ footer {
 }
 
 .recent-tag {
-    background-color: #D9534F;
+    background-color: var(--color-accent);
     font-size: 12px;
     padding: 10px;
     border-radius: 30px;
@@ -287,7 +303,7 @@ footer {
 .tools-section {
     flex: 1;
     padding: 24px;
-    background-color: #FFF;
+    background-color: var(--color-white);
     border-radius: 24px;
 }
 
@@ -298,20 +314,20 @@ footer {
 .tools-grid {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 
 .tool-card{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color: #ECF4F1;
+    background-color: var(--color-light-green);
     border-radius: 12px;
     justify-items: center;
     padding: 24px;
 }
 
 .tool-description{
-    color: #FFF;
+    color: var(--color-white);
     background-color: #000;
     text-align: center;
     padding: 10px;
@@ -320,7 +336,7 @@ footer {
 
 
 .experience-section {
-    background-color: white;
+    background-color: var(--color-white);
     padding: 24px;
     border-radius: 24px;
     margin-bottom: 24px;
@@ -329,10 +345,10 @@ footer {
 .experience-card {
     display: flex;
     border-radius: 24px;
-    box-shadow: 0 0 2px #DADADA;
+    box-shadow: 0 0 2px var(--color-shadow);
     margin-bottom: 10px;
     padding: 30px;
-    background-color: #ECF4F1;
+    background-color: var(--color-light-green);
     gap: 30px;
     align-items: flex-start;
     position: relative;
@@ -347,13 +363,13 @@ footer {
 }
 
 .experience-section .experience-card:nth-child(2) {
-    background-color: #2E6E5B;
-    color: #FFF;
+    background-color: var(--color-dark-green);
+    color: var(--color-white);
 }
 
 .experience-section .experience-card:nth-child(2) p,
 .experience-section .experience-card:nth-child(2) li {
-    color: #FFF;
+    color: var(--color-white);
 }
 
 .experience-section .recent-tag {
@@ -371,7 +387,7 @@ footer {
 }
 
 .contact p {
-    color: white;
+    color: var(--color-white);
     font-size: 24px;
     font-weight: 550;
     margin-bottom: 30px;
@@ -379,8 +395,8 @@ footer {
 }
 .contact a {
     text-decoration: none;
-    font-family: "Inter", sans-serif;
-    color: #CCCCCC;
+    font-family: var(--font-main);
+    color: var(--color-grey);
     font-size: 20px;
 }
 
@@ -388,7 +404,7 @@ footer {
 .divider {
   width: 2px;
   height: 24pxpx;
-  background-color: #CCCCCC;
+  background-color: var(--color-grey);
 }
 
 
@@ -408,7 +424,7 @@ footer {
     }
 
     .container {
-        padding: 10px;
+        padding: 5px;
     }
 
     .profile-pic img {
@@ -440,6 +456,10 @@ footer {
         display: none;
     }
 
+    .skills-proficiency-container {
+        flex-direction: column;
+    }
+
     .proficiency-column,
     .skills-column, 
     .education-section,
@@ -454,7 +474,7 @@ footer {
     }
 
     .project-section{
-        padding: 0;
+        padding: 5px;
         border-radius: 12px;
     }
 
@@ -465,8 +485,9 @@ footer {
     
     .project-grid {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 5px;
     }
     
     .project-card{
