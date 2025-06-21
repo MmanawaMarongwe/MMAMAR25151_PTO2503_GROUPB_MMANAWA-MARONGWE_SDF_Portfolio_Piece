@@ -1,75 +1,121 @@
 # 💼 SDFPP Resume Project
 
-This is my submission for the Software Development Fundamentals Portfolio Project (SDFPP). The goal of this project was to replicate a Figma design and build a fully responsive, semantic online resume using only HTML and CSS. The Project is an overview of my professional and academic history
+Welcome to your first major **portfolio project** in the Software Development Program is a resume project (SDFPP). In this challenge, using a [Figma design file](https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1&t=yGSXI1yv4AgjKBvA-1) as reference, you’ll create your very own online resume — a personal website that shows off your skills, experience, and code style using **HTML and CSS**.
+
+This is not just practice — this is something you can proudly include in your portfolio and share with future employers!
 
 ---
 
-## 🔗 Live Preview
+## 📌 Project Overview
 
-> ⚠️ Deployment is not required for this project. The site runs locally in the browser.
+**Project Name:** Resume Project  
+**Difficulty:** Beginner–Intermediate  
+**Goal:** Replicate a Figma design of a resume site as accurately as possible using HTML and CSS  
+**Tools Required:** HTML5, CSS3, Git, GitHub  
+**Deployment:** Not required — site must run locally in browser  
+**Submission Includes:**
+- A link to your GitHub repo
+- A screen recording of your presentation (5–10 minutes)
+- A complete README (you’re reading it!)
 
----
-
-## 🎥 Presentation Recording
-
-[View 5–10 minute video presentation here](https://www.loom.com/share/675062f65c5046b392908ccffdabb3cc?sid=5dcbd327-8043-4a0c-b0d8-eef5301446f5)  
-
----
-
-## 📁 GitHub Repository
-
-This repository contains:
-- Clean, semantic HTML5 code
-- Organised, responsive CSS3 styling
-- A structured layout that closely matches the Figma reference
-- A clean commit history using Git
+ 🎨Link to Figma Reference File: https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1&t=yGSXI1yv4AgjKBvA-1
 
 ---
 
-## 🛠️ Technologies Used
+## 🧠 What You'll Build
 
-- HTML5  
-- CSS3 (Flexbox and Grid)  
-- Git & GitHub
+You will build a fully responsive, Figma-matching resume site that includes the following sections:
 
----
-
-## 📌 Features Implemented
-
-The site includes all required sections and features:
-
-- **🧑‍💼 Profile & Summary:** A brief bio introducing the developer.
-- **📊 Proficiency Bars:** Graphical display of proficiency in selected skills.
-- **🏷️ Skills Tags:** Quick-glance tags of relevant technical skills.
-- **🗂️ Projects Grid:** Showcase of portfolio projects in a responsive grid.
-- **🎓 Education & Work History:** Academic and professional background.
-- **🛠️ Tools Section:** Logos of languages, frameworks, and tools.
-- **📬 Contact Footer:** Contact info and styled footer section.
+- Profile & Summary
+- Proficiency Bars
+- Skills Tags
+- Projects Grid
+- Education & Work History
+- Tools Section
+- Contact Footer
 
 ---
 
-## 📱 Responsive Design
+## 🧪 How You’ll Be Marked
 
-- Fully responsive across mobile, tablet, and desktop screen sizes
-- Layouts adjust using media queries and modern CSS practices
-- Flexbox and Grid used for flexible, adaptive design
+Your project will be assessed using **two components**:
+
+### ✅ 1. Code & Layout Marking 
+Each section of your resume site is scored based on:
+- Use of semantic HTML and correct structure
+- Accurate styling, spacing, typography, and colour matching the Figma
+- Pixel accuracy for layout and alignment
+- Responsive layout on mobile screens
+- Clean and well-structured code
+- Functional and visually polished components
+- Accessibility (e.g., alt text for images and icons)
+
+> A full breakdown of the scoring rubric is available on your Dashboard. Each feature is mapped to a clear user story and assigned a difficulty rating. Some features offer bonus points for pixel-perfection ✨
+
+### 🎙️ 2. Recorded Presentation 
+You must record a **5–10 minute** screen presentation of your project using Loom, OBS, or any screen recorder.
+
+You will be scored on:
+- How well you explain your code and decisions
+- Understanding and communication of the project brief
+- Visual walkthrough of your site and responsiveness
+- Presentation skills (confidence, clarity, visual aids)
+
+📎 [View the Presentation Template Here](https://www.loom.com/share/675062f65c5046b392908ccffdabb3cc))
 
 ---
 
-## 📎 Reference
+## ✅ Submission Requirements
 
-- Figma Design File: [SDF Resume Project Reference](https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1&t=yGSXI1yv4AgjKBvA-1)
+To pass this project, you must submit the following:
+
+| Task | Required |
+|------|----------|
+| All required sections built | ✅ |
+| Semantic, readable HTML | ✅ |
+| Well-organised, responsive CSS | ✅ |
+| GitHub repo with clean commit history | ✅ |
+| README file with project info | ✅ |
+| 5–10 minute video presentation | ✅ |
 
 ---
 
-## 🙌 Acknowledgments
+## 🧰 Project Setup Instructions
 
-Thank you to the CodeSpace team for providing the structure, guidance, and design assets that made this project a rewarding experience.
+1. Clone your starter project folder (or create a new repo)
+2. Build your site using HTML and CSS
+3. Test it on different screen sizes
+4. Use Git to track your progress with frequent commits
+5. Record your presentation walkthrough
+6. Submit your GitHub link + recording link via the LMS
 
 ---
 
-## 👤 Author
+## 🎯 Extra Credit (Bonus Points)
 
-**Your Name Here**  
-*Aspiring Front-End Developer | Software Development Student*  
-GitHub: [@MmanawaMarongwe](https://github.com/MmanawaMarongwe)
+You can earn bonus marks for:
+- A **pixel-perfect build** that is accurate within 10px of the Figma
+- Thoughtful use of layout tools (Grid, Flexbox)
+- Polished hover states and accessibility improvements
+- High-quality code that’s modular and scalable
+
+---
+
+## 📩 Submit Your Project
+
+- ✅ Make sure the naming convention of your repo is correct
+- ✅ Include this README file in your repo  
+- ✅ Add your 5–10 min presentation video link to Google Drive (or similar) and share it with your coach 
+- ✅ Paste your video link in your README 
+- ✅ Push your project to your SDFPP GitHub repo
+- ✅ Submit your SDFPP GitHub repo link to the LMS
+
+---
+
+## 🙌 Good Luck!
+
+Take your time. Follow the walkthrough. Ask for help if you need it.
+
+You're not just building a resume site — you're building confidence, skills, and a real piece of your future portfolio.
+
+**You’ve got this. Let’s go! 🚀**
