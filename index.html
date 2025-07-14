@@ -1,71 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mmanawa Thato Marongwe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..
+    900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,
+    wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div>
-    <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
-    <div>
-      <nav>
-        <div>
-          <h4>ALL BOARDS (1)</h4>
-          <button>Launch Career</button>
-        </div>
-      </nav>
-    </div>  
-    <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
-    <div>
-      <header>
-        <div>
-          <h2>Launch Career</h2>
-        </div>
-      </header>
+    <div class="container">
+         <header>
+            <div class="profile-section">
+                <div class="profile-pic">
+                    <img src="src/profile-pic2.jpeg"  alt="A picture of a Mmanawa Marongwe smiling">
+                </div>
+                <div class="about-section">
+                    <h2 class="name">Mmanawa Marongwe</h2>
+                    <p class="bio-text">From support tickets to styled components, I bridge the gap between users and code. <span class="hide-on-mobile">
+                        Tech enthusiast, lifelong learner, and always up for a challenge—especially if it involves fixing what someone
+                        said was "working fine yesterday". I’m actively upskilling in web development through CodeSpace, with a long-term goal to transition into a Software Engineering role.
+                         I enjoy building interactive interfaces, learning through real-world projects, and making tech approachable for all users.</span>
+                    </p>
+                </div>
+            </div>
+        </header>
 
-      <div>
-        <main>
-          <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
-          <div>
-            <div>
-              <span></span>
-              <h4>TODO</h4>
+        <section class="skills-proficiency-container">
+            <div class="proficiency-column">
+                <h2>Proficiency</h2>
+                <p class="proficiency-levels">Beginner    Intermediate   Advanced*</p>
+                <ul class="proficiency-list">
+                    <li class="proficiency-item">
+                        <span class="proficiency-name">JavaScript</span>
+                        <span class="fill" style="width: 40%"></span>
+                    </li>
+                    <li class="proficiency-item">
+                        <span class="proficiency-name">React</span>
+                        <span class="fill" style="width: 10%"></span>
+                    </li>
+                    <li class="proficiency-item">
+                        <span class="proficiency-name">Node.js</span>
+                        <span class="fill" style="width: 5%"></span>
+                    </li>
+                    <li class="proficiency-item">
+                        <span class="proficiency-name">HTML + CSS</span>
+                        <span class="fill" style="width: 50%"></span>
+                    </li>
+                </ul>
             </div>
-            <!-- Tasks container for TODO -->
-            <div>
-              <div>Launch Epic Career 🚀</div>
-              <div>Learn Data Structures and Algorithms 📚</div>
+            <div class="skills-column">
+                <h2>Skills</h2>
+                <div class="skills-list">
+                    <div class="skill-item">Git & GitHub</div>
+                    <div class="skill-item">Web Develoment</div>
+                    <div class="skill-item">Agile</div>
+                    <div class="skill-item">Communication</div>
+                    <div class="skill-item">Customer Support</div>
+                    <div class="skill-item">Team collaboration</div>
+                    <div class="skill-item">Project Management</div>
+                </div>
             </div>
-          </div>
-          <!-- DOING Column -->
-          <div>
-            <div>
-              <span></span>
-              <h4>DOING</h4>
+        </section>
+
+        <section class="project-section">
+            <h2 class="project-header">Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-title">
+                        <h3>2024</h3>
+                        <span class="heart-icon">&#9829;</span>
+                    </div>
+                    <div class="project-name"><h3>Weather App</h3></div>
+                    <div class="brief">
+                        <p><strong>Brief:</strong>Built a weather app with a 5-day forecast and real time data for any location
+                    </p>
+                    </div>
+                    <div class="technologies">
+                        <p><strong>Technologies:</strong>HTML, CSS, JavaScript, Bootstrap</p>
+                    </div>
+                    <div class="responsibilities">
+                        <p><strong>Responsibilities:</strong> Implemented real time data using Openweather
+                            API, providing a 5-day weather forecast
+                    </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">
+                        <h3>2025</h3>
+                        <span class="heart-icon">&#9829;</span>
+                    </div>
+                    <div class="project-name"><h3>World Clock</h3></div>
+                    <div class="brief">
+                        <p><strong>Brief:</strong>Built A time zone converter that displays the current 
+                            time for multiple cities.
+                    </p>
+                    </div>
+                    <div class="technologies">
+                        <p><strong>Technologies:</strong>HTML, CSS, JavaScript, Bootstrap</p>
+                    </div>
+                    <div class="responsibilities">
+                        <p><strong>Responsibilities:</strong> 
+                        Implemented real time data using moment.js. Added a searchbar and current location function
+                    </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">
+                        <h3>2025</h3>
+                    </div>
+                    <div class="project-name"><h3>Portfolio Piece</h3></div>
+                    <div class="brief">
+                        <p><strong>Brief:</strong>Developed a personal portfolio website to showcase projects and skills.</p>
+                    </div>
+                    <div class="technologies">
+                        <p><strong>Technologies:</strong>HTML, CSS, Bootstrap, Tailwind</p>
+                    </div>
+                    <div class="responsibilities">
+                        <p><strong>Responsibilities:</strong> Designed and implemented the website, ensured responsiveness and accessibility.
+                    </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">
+                        <h3>2024</h3>
+                    </div>
+                    <div class="project-name"><h3>Travel Page</h3></div>
+                    <div class="brief">
+                        <p><strong>Brief:</strong>A responsive travel landing
+                         page featuring one of South Africa’s landmarks</p> 
+                    </div>
+                    <div class="technologies">
+                        <p><strong>Technologies:</strong>HTML, CSS, Bootstrap, Tailwind</p>
+                    </div>
+                    <div class="responsibilities">
+                        <p><strong>Responsibilities:</strong> Designed and implemented the website, ensured responsiveness and accessibility.
+                        </p>    
+                    </div>
+                </div>
             </div>
-            <!-- Tasks container for DOING -->
-            <div>
-              <div>Master JavaScript 💛</div>
-              <div>Keep on Going 🏆</div>
+        </section>
+
+        <section class="education-and-tools">
+            <div class="education-section">
+                <h2 class="education-header">Education</h2>
+                <div class="education-card">
+                    <div class="recent-tag-wrapper">
+                        <p class="recent-tag">Most Recent</p>
+                    </div>
+                    <div class="program-info">
+                        <p class="completion-date">Mar.2025 - Mar.2026</p>
+                        <p class="institution">CodeSpace</p>
+                        <p class="program-name">Software Development</p>
+                    </div>
+                    <div class="skills-gained">
+                        <ul>
+                            <li>Built responsive web interfaces using HTML, Tailwind CSS, and JavaScript.</li>
+                            <li>Used Git and GitHub for version control, collaboration, and deploying projects.</li>
+                            <li>Integrated real APIs and debugged issues to simulate real SaaS environments.</li>
+                        </ul>   
+                    </div>
+                    
+                </div>
+                <div class="education-card">
+                    <div class="program-info">
+                        <p class="completion-date">Jan.2024 - Dec.2024</p>
+                        <p class="institution">MANCOSA</p>    
+                        <p class="program-name">Software Development</p>
+                    </div>
+                    <div class="skills-gained">
+                        <ul>
+                            <li>Gained skills in strategic operations management and supply chain coordination.</li>
+                            <li>Applied project planning tools and techniques to real-world business case studies.</li>
+                            <li>Strengthened business communication and critical thinking in managerial decision-making.</li>
+                        </ul>   
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="program-info">
+                        <p class="completion-date">Jul.2016 - Dec.2022</p>
+                        <p class="institution">TUT</p>
+                        <p class="program-name">Electrical Engineering</p>
+                    </div>
+                    <div class="skills-gained">
+                        <ul>
+                            <li>Developed a strong foundation in C and Python applied to engineering problems.</li>
+                            <li>Learned how to design, analyze, and troubleshoot digital and analog circuits.</li>
+                            <li>Applied structured problem-solving methods in technical and laboratory environments.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- DONE Column -->
-          <div>
-            <div>
-              <span></span>
-              <h4>DONE</h4>
+
+
+            <div class="tools-section">
+                <h2 class="tools-header">Tools</h2>
+                <div class="tools-grid">
+                    <p class="tool-description">Languages</p>
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <img src="src/html-logo.png" alt="A picture of the HTML logo">
+                        </div>
+                        <div class="tool-icon">
+                            <img src="src/css-logo.png" alt="A picture of the CSS css-logo">
+                        </div>
+                        <div class="tool-icon">
+                            <img src="src/react-logo.png" alt="A picture of the react logo">
+                        </div>
+                        <div class="tool-icon">
+                            <img src="src/js-logo.png" alt="A picture of the JavaScript logo">
+                        </div>
+                        <div class="tool-icon">
+                            <img src="src/tailwind-logo.png" alt="A picture of the tailwind logo">
+                        </div>
+                        <div class="tool-icon">
+                            <img src="src/node-logo.png" alt="A picture of the node.js logo">
+                        </div>
+                    </div>
+
+                    <p class="tool-description">Design</p>
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <img src="src/CreativeCloud-logo.png" alt="A picture of the creative cloud logo">
+                        </div>
+                        <div class="tool-icon">
+                            <img src="src/Figma-logo.png" alt="A picture of the figma logo">
+                        </div>
+                        <div class="tool-icon">
+                            <img src="src/Gmeet-icon.png" alt="A picture of the Google meet logo">
+                        </div>
+                        <div class="tool-icon">
+                            <img src="src/icons8-microsoft.png" alt="A picture of the microsoft logo">
+                        </div>
+                    </div>
+
+
+                    <p class="tool-description">Software</p>
+                    <div class="tool-card">
+                        <div class="tool-logo">
+                            <img src="src/icons8-git.png" alt="A picture of the git logo">
+                        </div>
+                        <div class="tool-logo">
+                            <img src="src/icons8-github.png" alt="A picture of the github logo">
+                        </div>
+                        <div class="tool-logo">
+                            <img src="src/icons8-visual-studio.png" alt="A picture of the visual studio logo">
+                        </div>
+                        <div class="tool-logo">
+                            <img src="src/icons8-npm.png" alt="A picture of the npm logo">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- Tasks container for DONE -->
-            <div>
-              <div>Contribute to Open Source Projects 🌐</div>
-              <div>Build Portfolio Projects 🛠️</div>
+        </section>
+
+        <section class="experience-section">
+            <h2 class="experience-header">Experience</h2>
+            <div class="experience-card">
+                 <div class="recent-tag-wrapper">
+                    <p class="recent-tag">Most Recent</p>
+                </div>
+                <div class="experience-info">
+                    <p class="experience-date">Jun.2024 - Now</p>
+                    <p class="organization">Dotdigital</p>
+                    <p class="position">Product Expert</p>
+                </div>
+                <div class="duties">
+                    <ul>
+                        <li>Providing customer technical support via chat, email, and phone for the Dotdigital platform.</li>
+                        <li>Troubleshooting API, campaign workflow, and integration issues—including escalation when required.</li>
+                        <li>Enable customers to maximize platform value by translating technical concepts into user-friendly guidance</li>
+                    </ul>   
+                </div>
             </div>
-          </div>
-        </main>
-      </div>
+            <div class="experience-card">
+                <div class="experience-info">
+                    <p class="experience-date">Sep.2021 - May.2024</p>
+                    <p class="organization">BrandMed</p>    
+                    <p class="position">Product Support Technician</p>
+                </div>
+                <div class="duties">
+                    <ul>
+                        <li>Managing customer-facing technical product support in a SaaS context using tools like Jira Service Desk..</li>
+                        <li>Leading troubleshooting and escalation workflows.</li>
+                        <li>	Supporting business agility initiatives through process optimizations.</li>
+                    </ul>   
+                </div>
+            </div>
+            <div class="experience-card">
+                <div class="experience-info">
+                    <p class="experience-date">Jul.2016 - Dec.2022</p>
+                    <p class="organization">Fresenius Kabi</p>
+                    <p class="position">Technician Trainee</p>
+                </div>
+                <div class="duties">
+                    <ul>
+                        <li>Completed hands-on technical training in pharmaceutical protocols, equipment handling, and quality control in a regulated environment.</li>
+                        <li>Assisted senior staff with setting up, calibrating, and maintaining infusion pumps and fluid management devices.</li>
+                        <li>Supported daily operations, including inventory checks, equipment sterilization, and maintaining compliance documentation.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer class="contact">
+            <p>Let's chat! I'm ready to work on exciting projects</p>
+            <div class="contact-card">
+                <div>
+                    <a href="mailto:mashalammanawa@gmail.com">mashalammanawa@gmail.com</a>
+                </div>
+                <div class="divider hide-on-mobile"></div>
+                <div>
+                    <a href="tel:+27821234567"> +27 82 123 4567</a>
+                </div>
+                <div class="divider hide-on-mobile"></div>
+                <div class="hide-on-mobile">
+                    <a href="https://www.linkedin.com/in/mmanawa-thato-marongwe-046131115/"> LinkedIn</a>
+                </div>
+                <div class="divider hide-on-mobile"></div>
+                <div class="hide-on-mobile">
+                    <a href="https://github.com/MmanawaMarongwe">Github</a>
+                </div>
+            </div>
+        </footer>
     </div>
-  </div>
 </body>
-</html>
+</html>.

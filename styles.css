@@ -1,0 +1,541 @@
+:root {
+  --font-main: "Inter", sans-serif;
+
+  --color-body-bg: #737373;
+  --color-accent: #D76239;
+  --color-dark-green: #2E6E5B;
+  --color-light-green: #ECF4F1;
+  --color-shadow: #DADADA;
+  --color-white-fallback: #FFFF;
+  --color-white: #FFF;
+  --color-fill: #396B5E;
+  --color-grey: #CCCCCC;
+  --color-dark-grey: #4A4A4A;
+}
+
+
+body {
+    background-color: var(--color-body-bg);
+}
+
+.container {
+    padding: 1.5rem;
+}
+
+h2 {
+    font-family: var(--font-main);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+h3, p {
+    font-family: var(--font-main);
+}
+
+li{
+    font-family: var(--font-main);
+    font-size: 1rem;
+    line-height: 20px;
+    color: var(--color-dark-grey);
+    list-style-position: outside;
+    padding-left: 8px;  
+}
+
+footer {
+    background-color: var(--color-accent);
+    padding: 30px;
+    border-radius: 1.5rem;
+
+}
+
+.profile-section{
+    display: flex;
+    margin-bottom: 1.5rem;
+    gap: 0;
+}
+
+.profile-pic {
+    flex: 1; /* 1 part of the total width */
+    height: 100%;
+}
+
+.profile-pic img {
+    width: 12rem;
+    border-radius: 1.5rem;
+    height: 100%;
+}
+
+.bio-text {
+    font-family: var(--font-main);
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    color: var(--color-dark-grey);
+}
+
+.about-section {
+    flex: 4; /* 3 parts of the total width */
+    background-color: var(--color-white);
+    padding: .25rem 4rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 3px var(--color-shadow);
+}
+
+.skills-proficiency-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    border-radius: .75rem;
+    margin-bottom: 1.5rem;
+}
+
+.proficiency-levels{
+    font-family: var(--font-main);
+    font-size: 1rem;
+    word-spacing: .75rem;
+    text-align: left;
+}
+
+.proficiency-column {
+    flex: 1.3;
+    background-color: var(--color-white);
+    padding: 1.25rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 2px var(--color-shadow);
+}
+
+.proficiency-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.proficiency-item {
+    display: flex;  /*puts the progress bar and proficiency name in a flexbox*/
+    align-items: center;
+}
+
+.proficiency-name {
+    font-family: var(--font-main);
+    font-size: 1rem;
+    width: 8rem; /*This helps the progress bars (class .fill) start at the same point by fixing the width of the proficiency name*/
+}
+
+.fill {
+  display: inline-block;
+  font-size: 1rem;
+  height: .5rem;
+  background-color: var(--color-fill);
+  border-radius: .25rem;
+}
+
+
+.skills-column {
+    flex: 1.7;
+    background-color: var(--color-white);
+    padding: 1.25rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 2px var(--color-shadow);
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+ 
+.skill-item  {
+    font-family: var(--font-main);
+    font-size: 1rem;
+    background-color: var(--color-light-green);
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.project-header{
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+.project-section {
+    background-color: var(--color-white);
+    border-radius: 1.5rem;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    margin-bottom: 1.5rem;
+}   
+
+.project-grid {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 10px;
+      
+}
+.project-card{
+    background-color: var(--color-light-green);
+    width: 240px;
+    height: 360px;
+    padding: 0px 10px 10px 10px ;
+    border-radius: 12px;
+    box-shadow: 0 0 2px var(--color-shadow);
+}
+
+.brief, .technologies, .responsibilities {
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--color-dark-grey);
+}
+
+.project-grid .project-card:nth-child(1) {
+    background-color: var(--color-dark-green);
+    color: var(--color-white);
+}
+
+.project-grid .project-card:nth-child(1) p {
+  color: var(--color-white);
+}
+
+.project-name{
+    font-size: 18px;
+    font-weight: 550;
+    margin-bottom: 12px;
+}
+
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  margin: 0;
+}
+
+.heart-icon {
+  font-size: 30px;
+  color: var(--color-grey);
+  padding: 8px;
+}
+
+.heart-icon:active {
+    color: var(--color-accent);
+    scale: 1.05;
+}
+
+.education-and-tools {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 1.5rem;
+}
+
+.education-header {
+    text-align: center;
+}
+
+.education-section{
+    flex: 3;
+    padding: 1.5rem;
+    background-color: var(--color-white);
+    border-radius: 1.5rem;
+    gap: 10px;
+}
+
+.education-card {
+    display: flex;
+    border-radius: 12px;
+    box-shadow: 0 0 2px var(--color-shadow);
+    margin-bottom: 20px;
+    padding: 35px;
+    border-radius: 1.5rem;
+    background-color: var(--color-light-green);
+    position: relative;
+}
+
+.program-info, .skills-gained {
+    margin-top: 15px;
+}
+
+
+.institution, .organization {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.completion-date, .program-name {
+    font-size: 14px;
+    color: var(--color-dark-grey);
+}
+
+
+.education-section .education-card:nth-child(2) {
+    background-color: var(--color-dark-green);
+    color: var(--color-white);
+}
+
+.education-section .education-card:nth-child(2) p,
+.education-section .education-card:nth-child(2) li {
+    color: var(--color-white);
+}
+
+.recent-tag-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ .recent-tag-wrapper {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.recent-tag {
+    background-color: var(--color-accent);
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.tools-section {
+    flex: 1;
+    padding: 1.5rem;
+    background-color: var(--color-white);
+    border-radius: 1.5rem;
+}
+
+.tools-header{
+    text-align: center;
+}
+
+.tools-grid {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+}
+
+.tool-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: var(--color-light-green);
+    border-radius: 12px;
+    justify-items: center;
+    padding: 1.5rem;
+}
+
+.tool-description{
+    color: var(--color-white);
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+
+.experience-section {
+    background-color: var(--color-white);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.experience-card {
+    display: flex;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 2px var(--color-shadow);
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: var(--color-light-green);
+    gap: 30px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.experience-info {
+  width: 200px;
+}
+
+.experience-info, .duties {
+    margin-top: 15px;
+}
+
+.experience-section .experience-card:nth-child(2) {
+    background-color: var(--color-dark-green);
+    color: var(--color-white);
+}
+
+.experience-section .experience-card:nth-child(2) p,
+.experience-section .experience-card:nth-child(2) li {
+    color: var(--color-white);
+}
+
+.experience-section .recent-tag {
+    margin-left: 50px;
+}
+
+.experience-header{
+    text-align: center;
+}
+
+.contact-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.contact p {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin-bottom: 30px;
+    
+}
+.contact a {
+    text-decoration: none;
+    font-family: var(--font-main);
+    color: var(--color-grey);
+    font-size: 20px;
+}
+
+
+.divider {
+  width: 2px;
+  height: 1.5rem;
+  background-color: var(--color-grey);
+}
+
+
+@media (max-width: 640px) {
+
+    p {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    li {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    .profile-pic img {
+        width: 6rem;
+        height: 100%;
+        border-radius: 12px;
+    }
+
+   .profile-section {
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 0 12px 0;
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+
+    .about-section {
+        flex: 2;
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    .bio-text {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .skills-proficiency-container {
+        flex-direction: column;
+    }
+
+    .proficiency-column,
+    .skills-column, 
+    .education-section,
+    .tools-section,
+    .experience-section,
+    .contact,
+    .education-card,
+    .project-card,
+    .tool-card,
+    .experience-card {
+        border-radius: 12px;
+    }
+
+    .project-section{
+        padding: 5px;
+        border-radius: 12px;
+    }
+
+    .project-header {
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .project-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+    .project-card{
+        flex: 0 0 50%;
+        max-width: 140px;
+        padding: 5px;
+    }
+
+    .project-name, .project-title {
+        font-size: 14px;
+    }
+    .education-and-tools {
+        flex-direction: column;
+        padding: 5px;
+    }
+    .recent-tag{
+        font-size: 10px;    
+    }
+    .education-card{
+        flex-direction: row;
+        gap: 0;
+        align-items: baseline;
+    }
+
+    .program-info p {
+        font-size: 10px;
+    }
+    
+    .experience-card{
+        flex-direction: row;
+        gap: 0;
+        align-items: baseline;
+}
+
+    .experience-info p {
+        font-size: 10px;
+    }
+
+    .contact {
+        padding: 15px;
+    }
+    .contact p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .contact a {
+        font-size: 10px;
+    }
+
+}
